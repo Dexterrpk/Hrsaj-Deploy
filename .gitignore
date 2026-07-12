@@ -1,0 +1,8 @@
+config.env
+assets/*.deb
+assets/wallpapers/*
+logs/*.log
+reports/*.txt
+*.zip
+*.sha256
+.DS_Store
