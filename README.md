@@ -10,7 +10,7 @@ git clone https://github.com/Dexterrpk/Hrsaj-Deploy.git
 cd Hrsaj-Deploy
 cp config.env.example config.env
 nano config.env
-./start.sh
+bash start.sh
 ```
 
 Para atualizar uma instalação existente:
@@ -18,7 +18,13 @@ Para atualizar uma instalação existente:
 ```bash
 cd ~/Hrsaj-Deploy
 git pull --ff-only
-./start.sh
+bash start.sh
+```
+
+Também existe um instalador auxiliar:
+
+```bash
+bash install.sh
 ```
 
 ## Proteções obrigatórias
